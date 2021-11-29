@@ -13,3 +13,7 @@ run ./enc_client #textFile keyFile enc_server > cipher file <br />
 #this will print out whatever cipher file you chose <br />
 #to decrypt <br />
 run ./dec_client #cipherFile keyFile enc_server > decrypt file
+
+## Setup 2
+run ./compileall <br />
+run ./p5testsscript #randomNumber1 #randomNumber2 > myTestResults
