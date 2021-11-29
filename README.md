@@ -5,11 +5,11 @@ read the message in English.
 These 5 programs combine multi-processing code with socket-based inter-process communication. The programs are accessible from the command line using standard Unix features.
 
 ## Setup
-run ./compileall 
-run ./enc_server #randomnumber 50000+
-run ./dec_server #randomnumber 50000+ different from enc_server
-run ./keygen > #keyFile
-run ./enc_client #textFile keyFile enc_server > cipher file
-#this will print out whatever cipher file you chose
-#to decrypt
+run ./compileall <br />
+run ./enc_server #randomnumber 50000+ <br />
+run ./dec_server #randomnumber 50000+ different from enc_server <br />
+run ./keygen > #keyFile <br />
+run ./enc_client #textFile keyFile enc_server > cipher file <br />
+#this will print out whatever cipher file you chose <br />
+#to decrypt <br />
 run ./dec_client #cipherFile keyFile enc_server > decrypt file
