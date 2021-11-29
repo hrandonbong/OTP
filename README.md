@@ -4,7 +4,8 @@ read the message in English.
 
 These 5 programs combine multi-processing code with socket-based inter-process communication. The programs are accessible from the command line using standard Unix features.
 
-## Setup
+## Setup 1
+Note: plain text files have been provided in order for you to test <br />
 run ./compileall <br />
 run ./enc_server #randomnumber 50000+ <br />
 run ./dec_server #randomnumber 50000+ different from enc_server <br />
@@ -15,5 +16,6 @@ run ./enc_client #textFile keyFile enc_server > cipher file <br />
 run ./dec_client #cipherFile keyFile enc_server > decrypt file
 
 ## Setup 2
+Note: plain text files have been provided in order for you to test <br />
 run ./compileall <br />
 run ./p5testsscript #randomNumber1 #randomNumber2 > myTestResults
